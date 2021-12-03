@@ -6,7 +6,7 @@ import os
 
 file_path = os.path.dirname(os.path.abspath(__file__))
 
-#这里也是调用参数
+#这里调用现成参数
 VGG_Weights_path = file_path + ""
 
 IMAGE_ORDERING = 'channels_first'

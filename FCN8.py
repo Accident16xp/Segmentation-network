@@ -12,7 +12,7 @@ VGG_Weights_path = file_path + ""
 IMAGE_ORDERING = 'channels_first'
 
 
-# crop o1 wrt o2
+
 def crop(o1, o2, i):
     o_shape2 = Model(i, o2).output_shape
     outputHeight2 = o_shape2[2]
